@@ -1,0 +1,17 @@
+{
+  "name": "vite-wasm-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "rsw": "rsw",
+    "build": "rsw build && tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vite-plugin-rsw": "^2.0.8"
+  }
+}
